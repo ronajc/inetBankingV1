@@ -1,0 +1,5 @@
+2020-10-12 17:23:58 INFO  inetBankingV1:14 - Opening website
+2020-10-12 17:23:58 INFO  inetBankingV1:18 - Entered username
+2020-10-12 17:23:58 INFO  inetBankingV1:21 - entered password
+2020-10-12 17:24:01 INFO  inetBankingV1:24 - Clicked submit
+2020-10-12 17:24:01 INFO  inetBankingV1:29 - Testcase passed
