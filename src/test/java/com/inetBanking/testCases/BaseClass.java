@@ -16,8 +16,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.inetBanking.utilities.ReadConfig;
@@ -32,10 +32,10 @@ public class BaseClass {
 	public String username = rfConfig.getUsername();
 	public String password = rfConfig.getPassword();
 	public static Logger logger;
-
-	@Parameters("browser")
+	
+	
 	@SuppressWarnings("deprecation")
-	@BeforeClass
+	@BeforeMethod @Parameters("browser")
 	public void setup(String browser)
 	{
 		logger = Logger.getLogger("inetBankingV1");
@@ -61,7 +61,7 @@ public class BaseClass {
 		logger.info("Opening website");		
 	}
 
-	@AfterClass
+	@AfterSuite
 	public void teardown()
 	{
 		driver.quit();
