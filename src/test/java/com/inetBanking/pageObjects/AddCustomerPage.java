@@ -1,5 +1,7 @@
 package com.inetBanking.pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,9 +21,9 @@ public class AddCustomerPage {
 
 	@FindBy(name = "name")
 	WebElement customerName;
-
-	@FindBy(xpath = "/html/body/table/tbody/tr/td/table/tbody/tr[5]/td[2]/input[2]")
-	WebElement customerGender;
+	
+	@FindBy(name = "rad1")
+	List<WebElement> gender;
 
 	@FindBy(id = "dob")
 	WebElement DOB;
@@ -52,6 +54,9 @@ public class AddCustomerPage {
 
 	@FindBy(name = "res")
 	WebElement btnReset;
+	
+	@FindBy(xpath = "//*[@id=\"customer\"]/tbody/tr/td")
+	List<WebElement> customerDetails;
 
 	public void custButton() {
 		addCustomerbutton.click();
@@ -61,8 +66,16 @@ public class AddCustomerPage {
 		customerName.sendKeys(cname);
 	}
 	public void custGender(String cgender) {
-		customerGender.click();
-	}
+		if(cgender.equalsIgnoreCase("Male"))
+		{
+			gender.get(0).click();
+		}
+		else 
+		{
+			gender.get(1).click();
+		}
+		}
+
 	public void custDOB(String cday, String cmonth, String cyear) {
 		DOB.sendKeys(cday);
 		DOB.sendKeys(cmonth);
@@ -94,5 +107,17 @@ public class AddCustomerPage {
 	}
 	public void custreset() {
 		btnReset.click();
+	}
+	public String custID() {
+//		String randomvalue;
+		String custID;
+//		for(int i=0;i<customerDetails.size();i++)
+//		{	
+//			randomvalue = customerDetails.get(i).getText();
+//			//System.out.println(randomvalue);
+//		}
+		custID = customerDetails.get(4).getText();
+		System.out.println("-----"+custID+"------");
+		return custID;
 	}
 }

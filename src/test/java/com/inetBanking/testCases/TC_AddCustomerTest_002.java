@@ -2,7 +2,6 @@ package com.inetBanking.testCases;
 
 import java.io.IOException;
 
-import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +11,7 @@ import com.inetBanking.pageObjects.LoginPage;
 public class TC_AddCustomerTest_002 extends BaseClass{
 
 	@Test
-	public void addNewCustomer() throws InterruptedException, IOException {
+	public void addNewCustomer() throws IOException {
 		LoginPage lP = new LoginPage(driver);
 		logger.info("Username added");
 		lP.setUserName(username);
@@ -32,7 +31,6 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 			acpPage.custName("Julee");
 			acpPage.custGender("female");
 			acpPage.custDOB("05", "12", "1774");
-			Thread.sleep(5000);
 			acpPage.custAdress("India");
 			acpPage.custCity("Delhi");
 			acpPage.custState("Patel Nagar");
@@ -43,8 +41,13 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 			acpPage.custEmail(email);
 			acpPage.custPassword("Vishal@123");
 			acpPage.custSubmit();
+			acpPage.custID();
 
-			Thread.sleep(3000);
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 
 			logger.info("Validation started.....");
 			isAlertpresent();
@@ -70,8 +73,5 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 		}
 	}
 
-	public String RandomEmail() {
-		String generatedString = RandomStringUtils.randomAlphabetic(8);
-		return generatedString;
-	}
+	
 }

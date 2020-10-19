@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.NoAlertPresentException;
@@ -87,5 +88,9 @@ public class BaseClass {
 		catch (NoAlertPresentException e) {
 			return false;
 		}
+	}
+	public String RandomEmail() {
+		String generatedString = RandomStringUtils.randomAlphabetic(8);
+		return generatedString;
 	}
 }

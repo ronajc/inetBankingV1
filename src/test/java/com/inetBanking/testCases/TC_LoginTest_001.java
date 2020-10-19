@@ -10,7 +10,7 @@ import com.inetBanking.pageObjects.LoginPage;
 public class TC_LoginTest_001 extends BaseClass
 {
 	@Test
-	public void logintest() throws InterruptedException, IOException
+	public void logintest() throws IOException
 	{	
 		LoginPage LP = new LoginPage(driver);
 		LP.setUserName(username);
@@ -35,9 +35,7 @@ public class TC_LoginTest_001 extends BaseClass
 			logger.info("Testcase failed");
 
 		}
-		
-		LP.clickLogout();
-		logger.info("Clicked logout");
+
 	}
 
 }
