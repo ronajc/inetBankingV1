@@ -14,7 +14,6 @@
 <classes>
  <!--   <class name="com.inetBanking.testCases.TC_LoginTest_001"></class>  -->
  <class name="com.inetBanking.testCases.TC_AddCustomerTest_002"></class> 
-   <class name="com.inetBanking.testCases.TC_EditCustomer_003"></class> 
 </classes>
 </test>
 

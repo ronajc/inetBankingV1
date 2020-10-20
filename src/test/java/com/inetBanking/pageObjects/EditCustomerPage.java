@@ -2,6 +2,7 @@ package com.inetBanking.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -26,6 +27,9 @@ public class EditCustomerPage {
 	@FindBy(name = "res")
 	WebElement btnreset;
 	
+	@FindBy(xpath = "/html/body/table/tbody/tr/td/table/tbody/tr[4]/td[2]/input")
+	WebElement verifyName;
+	
 	public void  editcustomerlink()
 	{
 		editcustLink.click();
@@ -41,5 +45,15 @@ public class EditCustomerPage {
 	public void Reset()
 	{
 		btnreset.click();
+	}
+	public String verifyname() throws InterruptedException
+	{
+//		Actions actions = new Actions(driver);
+//		actions.moveToElement(verifyName);
+//		actions.contextClick();
+//		Thread.sleep(3000);
+		
+		String profilenameString = verifyName.getAttribute("value"); 
+		return profilenameString;
 	}
 }

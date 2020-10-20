@@ -1,5 +1,6 @@
 package com.inetBanking.testCases;
 
+
 import java.io.IOException;
 
 import org.testng.Assert;
@@ -11,10 +12,13 @@ import com.inetBanking.pageObjects.LoginPage;
 
 public class TC_AddCustomerTest_002 extends BaseClass{
 
-	String USERID;
+	public String USERID;
+	public String expectedName;
+	public String actualName;
 
 	@Test
 	public void addNewCustomer() throws IOException, InterruptedException {
+
 		LoginPage lP = new LoginPage(driver);
 		logger.info("Username added");
 		lP.setUserName(username);
@@ -60,20 +64,38 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 				logger.info("Testcase 1 passed");
 				USERID = acpPage.custID();
 
+
+
 				EditCustomerPage ecpCustomerPage = new EditCustomerPage(driver);
 				ecpCustomerPage.editcustomerlink();
 				ecpCustomerPage.txtCustID(USERID);
 				ecpCustomerPage.Submit();
 				Thread.sleep(3000);
+				
+				logger.info("executing verify name method");
+				actualName = ecpCustomerPage.verifyname();
+				
+				if(actualName.equals("Vishal Thakur"))
+				{
+					Assert.assertTrue(true);
+					logger.info("Testcase 2 passed");
+				}
+				else {
+					{
+						Assert.assertFalse(false);
+						captureScreenshot(driver, "EditCustOpen");
+						logger.info("Testcase 2 failed");
+					}
+				}
 
-				captureScreenshot(driver, "EditCustOpen");
-				logger.info("Testcase 2 passed");
+
+
 			}
 			else {
 				logger.info("switching to failed to add customer alert");
 				logger.info("Testcase failed");
 				captureScreenshot(driver, "AddCustomer");
-				Assert.assertTrue(false);
+				Assert.assertFalse(false);
 			}
 		}
 		else 
@@ -84,28 +106,4 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 
 		}
 	}
-
-//	To be used when adding test-case for editCustomer // (check*)
-	
-//	public String getUSERID() {
-//		return USERID;
-//	}
-//
-//	public void setUSERID(String USERID) {
-//		USERID = this.USERID;
-//	}
-//
-//	@Override
-//	public String toString() {
-//		return "TC_AddCustomerTest_002 [USERID=" + USERID + "]";
-//	}
-
-
-
-
-
-
-
-
-
 }

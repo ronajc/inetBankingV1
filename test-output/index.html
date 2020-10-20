@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-InetBankingV1">
-              <span class="suite-name border-failed">InetBankingV1</span>
+              <span class="suite-name border-passed">InetBankingV1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-InetBankingV1" class="hide-methods failed suite-InetBankingV1"> (hide)</a> <!-- hide-methods failed suite-InetBankingV1 -->
-                      <a href="#" panel-name="suite-InetBankingV1" class="show-methods failed suite-InetBankingV1"> (show)</a> <!-- show-methods failed suite-InetBankingV1 -->
-                    </span>
-                    <div class="method-list-content failed suite-InetBankingV1">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_EditCustomer_003" hash-for-method="editCustomer">editCustomer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-InetBankingV1 -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,40 +119,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-InetBankingV1" class="panel InetBankingV1">
-          <div class="suite-InetBankingV1-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.inetBanking.testCases.TC_EditCustomer_003</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="editCustomer">
-                  </a> <!-- editCustomer -->
-                  <span class="method-name">editCustomer</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill all fields}
-  (Session info: chrome=86.0.4240.75): Please fill all fields
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;INNOVATIONM-117&apos;, ip: &apos;192.168.159.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\VISHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 83a6a331501caf776ef93e6d8a50658d
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at com.inetBanking.testCases.BaseClass.captureScreenshot(BaseClass.java:73)
-	at com.inetBanking.testCases.TC_EditCustomer_003.editCustomer(TC_EditCustomer_003.java:31)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-InetBankingV1-class-failed -->
           <div class="suite-InetBankingV1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -196,7 +148,6 @@ Session ID: 83a6a331501caf776ef93e6d8a50658d
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.inetBanking.testCases.TC_AddCustomerTest_002&quot;/&gt;
-      &lt;class name=&quot;com.inetBanking.testCases.TC_EditCustomer_003&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Banking app Test --&gt;
 &lt;/suite&gt; &lt;!-- InetBankingV1 --&gt;
@@ -210,7 +161,7 @@ Session ID: 83a6a331501caf776ef93e6d8a50658d
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Banking app Test (2 classes)</span>
+                <span class="test-name">Banking app Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,20 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCustomer')
 data.setCell(0, 2, 'com.inetBanking.testCases.TC_AddCustomerTest_002')
-data.setCell(0, 3, 19937);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'editCustomer')
-data.setCell(1, 2, 'com.inetBanking.testCases.TC_EditCustomer_003')
-data.setCell(1, 3, 6632);
+data.setCell(0, 3, 23391);
 window.suiteTableData['InetBankingV1']= { tableData: data, tableDiv: 'times-div-InetBankingV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-InetBankingV1">
               </div> <!-- times-div-InetBankingV1 -->
             </div> <!-- times-div -->
@@ -264,16 +211,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-InetBankingV1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.inetBanking.testCases.TC_EditCustomer_003</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">teardown</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-InetBankingV1" class="panel">
@@ -289,27 +229,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addNewCustomer</span>
-                <span class="method-start">12222 ms</span>
+                <span class="method-start">11954 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.inetBanking.testCases.TC_EditCustomer_003</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">32168 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">editCustomer</span>
-                <span class="method-start">43816 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.inetBanking.testCases.TC_AddCustomerTest_002</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">50635 ms</span>
+                <span class="method-start">35398 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

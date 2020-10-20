@@ -494,3 +494,239 @@
 2020-10-19 17:55:30 INFO  inetBankingV1:54 - Validation started.....
 2020-10-19 17:55:38 INFO  inetBankingV1:60 - Testcase 1 passed
 2020-10-19 17:55:49 INFO  inetBankingV1:61 - Opening website
+2020-10-20 17:44:39 INFO  inetBankingV1:61 - Opening website
+2020-10-20 17:44:39 INFO  inetBankingV1:23 - Username added
+2020-10-20 17:44:39 INFO  inetBankingV1:25 - password added
+2020-10-20 17:44:39 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 17:44:41 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 17:44:43 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 17:44:50 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 17:44:56 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 17:48:00 INFO  inetBankingV1:61 - Opening website
+2020-10-20 17:48:00 INFO  inetBankingV1:20 - Username added
+2020-10-20 17:48:00 INFO  inetBankingV1:22 - password added
+2020-10-20 17:48:00 INFO  inetBankingV1:25 - Clicked submit
+2020-10-20 17:48:03 INFO  inetBankingV1:32 - Providing customer info
+2020-10-20 17:48:07 INFO  inetBankingV1:34 - Clicking add customer link
+2020-10-20 17:48:15 INFO  inetBankingV1:55 - Validation started.....
+2020-10-20 17:48:15 INFO  inetBankingV1:61 - Testcase 1 passed
+2020-10-20 17:48:31 INFO  inetBankingV1:77 - Testcase 2 passed
+2020-10-20 17:51:08 INFO  inetBankingV1:61 - Opening website
+2020-10-20 17:51:08 INFO  inetBankingV1:20 - Username added
+2020-10-20 17:51:09 INFO  inetBankingV1:22 - password added
+2020-10-20 17:51:09 INFO  inetBankingV1:25 - Clicked submit
+2020-10-20 17:51:10 INFO  inetBankingV1:32 - Providing customer info
+2020-10-20 17:51:12 INFO  inetBankingV1:34 - Clicking add customer link
+2020-10-20 17:51:25 INFO  inetBankingV1:55 - Validation started.....
+2020-10-20 17:51:35 INFO  inetBankingV1:80 - switching to failed to add customer alert
+2020-10-20 17:51:35 INFO  inetBankingV1:81 - Testcase failed
+2020-10-20 17:52:24 INFO  inetBankingV1:61 - Opening website
+2020-10-20 17:52:24 INFO  inetBankingV1:20 - Username added
+2020-10-20 17:52:25 INFO  inetBankingV1:22 - password added
+2020-10-20 17:52:25 INFO  inetBankingV1:25 - Clicked submit
+2020-10-20 17:52:27 INFO  inetBankingV1:32 - Providing customer info
+2020-10-20 17:52:29 INFO  inetBankingV1:34 - Clicking add customer link
+2020-10-20 17:52:35 INFO  inetBankingV1:55 - Validation started.....
+2020-10-20 17:52:36 INFO  inetBankingV1:61 - Testcase 1 passed
+2020-10-20 18:06:25 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:06:26 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:06:26 INFO  inetBankingV1:25 - password added
+2020-10-20 18:06:26 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:06:28 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:06:30 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:06:37 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:06:42 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:08:45 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:08:46 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:08:46 INFO  inetBankingV1:25 - password added
+2020-10-20 18:08:46 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:08:48 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:08:49 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:08:56 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:09:03 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:10:49 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:10:49 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:10:49 INFO  inetBankingV1:25 - password added
+2020-10-20 18:10:49 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:10:52 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:10:54 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:11:01 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:11:01 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:13:01 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:13:02 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:13:02 INFO  inetBankingV1:25 - password added
+2020-10-20 18:13:02 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:13:09 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:13:11 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:13:18 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:13:27 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:13:38 INFO  inetBankingV1:86 - Testcase 2 failed
+2020-10-20 18:14:52 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:14:52 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:14:53 INFO  inetBankingV1:25 - password added
+2020-10-20 18:14:53 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:14:55 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:14:57 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:15:05 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:15:05 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:15:48 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:15:48 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:15:48 INFO  inetBankingV1:25 - password added
+2020-10-20 18:15:49 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:15:50 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:15:52 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:15:59 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:16:01 INFO  inetBankingV1:94 - switching to failed to add customer alert
+2020-10-20 18:16:01 INFO  inetBankingV1:95 - Testcase failed
+2020-10-20 18:16:42 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:16:42 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:16:42 INFO  inetBankingV1:25 - password added
+2020-10-20 18:16:42 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:16:45 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:16:46 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:16:56 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:16:58 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:17:05 INFO  inetBankingV1:86 - Testcase 2 failed
+2020-10-20 18:21:40 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:21:40 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:21:41 INFO  inetBankingV1:25 - password added
+2020-10-20 18:21:41 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:21:45 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:21:46 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:21:53 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:21:53 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:22:32 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:22:32 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:22:32 INFO  inetBankingV1:25 - password added
+2020-10-20 18:22:33 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:22:35 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:22:36 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:22:43 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:22:48 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:22:56 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:24:35 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:24:35 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:24:35 INFO  inetBankingV1:25 - password added
+2020-10-20 18:24:35 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:24:38 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:24:39 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:24:46 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:24:49 INFO  inetBankingV1:95 - switching to failed to add customer alert
+2020-10-20 18:24:49 INFO  inetBankingV1:96 - Testcase failed
+2020-10-20 18:25:40 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:25:40 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:25:40 INFO  inetBankingV1:25 - password added
+2020-10-20 18:25:40 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:25:43 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:25:45 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:25:52 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:25:53 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:26:00 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:26:51 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:26:51 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:26:52 INFO  inetBankingV1:25 - password added
+2020-10-20 18:26:52 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:26:54 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:26:55 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:27:05 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:27:06 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:27:12 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:31:56 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:31:56 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:31:56 INFO  inetBankingV1:25 - password added
+2020-10-20 18:31:56 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:31:58 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:32:00 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:32:08 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:32:31 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:32:31 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:32:31 INFO  inetBankingV1:25 - password added
+2020-10-20 18:32:31 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:32:34 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:32:36 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:32:44 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:32:44 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:32:51 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:34:43 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:34:44 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:34:44 INFO  inetBankingV1:25 - password added
+2020-10-20 18:34:44 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:34:47 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:34:48 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:34:55 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:35:00 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:35:08 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:39:34 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:39:34 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:39:34 INFO  inetBankingV1:25 - password added
+2020-10-20 18:39:34 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:39:37 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:39:38 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:39:46 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:39:52 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:40:22 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:40:22 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:40:22 INFO  inetBankingV1:25 - password added
+2020-10-20 18:40:22 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:40:25 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:40:26 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:40:33 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:40:34 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:40:42 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:49:10 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:49:10 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:49:10 INFO  inetBankingV1:25 - password added
+2020-10-20 18:49:10 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:49:12 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:49:14 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:49:20 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:49:21 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:50:00 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:50:00 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:50:00 INFO  inetBankingV1:25 - password added
+2020-10-20 18:50:00 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:50:02 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:50:03 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:50:11 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:50:11 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:50:18 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:51:46 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:51:46 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:51:47 INFO  inetBankingV1:25 - password added
+2020-10-20 18:51:47 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:51:49 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:51:50 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:51:56 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:52:17 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:52:17 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:52:17 INFO  inetBankingV1:25 - password added
+2020-10-20 18:52:17 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:52:19 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:52:20 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:52:30 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:52:30 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:53:07 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:53:07 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:53:08 INFO  inetBankingV1:25 - password added
+2020-10-20 18:53:08 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:53:10 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:53:11 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:53:17 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:53:45 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:53:45 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:53:46 INFO  inetBankingV1:25 - password added
+2020-10-20 18:53:46 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:53:48 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:53:49 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:53:57 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:53:57 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:54:41 INFO  inetBankingV1:61 - Opening website
+2020-10-20 18:54:41 INFO  inetBankingV1:23 - Username added
+2020-10-20 18:54:41 INFO  inetBankingV1:25 - password added
+2020-10-20 18:54:41 INFO  inetBankingV1:28 - Clicked submit
+2020-10-20 18:54:44 INFO  inetBankingV1:35 - Providing customer info
+2020-10-20 18:54:45 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-20 18:54:56 INFO  inetBankingV1:58 - Validation started.....
+2020-10-20 18:54:56 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-20 18:55:04 INFO  inetBankingV1:75 - executing verify name method
+2020-10-20 18:55:04 INFO  inetBankingV1:81 - Testcase 2 passed
