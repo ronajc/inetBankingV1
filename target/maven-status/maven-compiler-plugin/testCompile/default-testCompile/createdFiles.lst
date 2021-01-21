@@ -3,6 +3,7 @@ com\inetBanking\utilities\ReadConfig.class
 com\inetBanking\pageObjects\AddCustomerPage.class
 com\inetBanking\utilities\Reporting.class
 com\inetBanking\testCases\TC_AddCustomerTest_002.class
+com\inetBanking\pageObjects\EditCustomerPage.class
 com\inetBanking\utilities\XLUtils.class
 com\inetBanking\pageObjects\LoginPage.class
 com\inetBanking\testCases\BaseClass.class

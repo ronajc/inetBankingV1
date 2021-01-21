@@ -730,3 +730,18 @@
 2020-10-20 18:54:56 INFO  inetBankingV1:64 - Testcase 1 passed
 2020-10-20 18:55:04 INFO  inetBankingV1:75 - executing verify name method
 2020-10-20 18:55:04 INFO  inetBankingV1:81 - Testcase 2 passed
+2020-10-21 17:43:05 INFO  inetBankingV1:61 - Opening website
+2020-10-21 17:43:05 INFO  inetBankingV1:23 - Username added
+2020-10-21 17:43:05 INFO  inetBankingV1:25 - password added
+2020-10-21 17:43:05 INFO  inetBankingV1:28 - Clicked submit
+2020-10-21 17:43:07 INFO  inetBankingV1:35 - Providing customer info
+2020-10-21 17:43:09 INFO  inetBankingV1:37 - Clicking add customer link
+2020-10-21 17:43:26 INFO  inetBankingV1:58 - Validation started.....
+2020-10-21 17:43:27 INFO  inetBankingV1:64 - Testcase 1 passed
+2020-10-21 17:43:35 INFO  inetBankingV1:75 - executing verify name method
+2020-10-21 17:43:35 INFO  inetBankingV1:81 - Testcase 2 passed
+2021-01-21 12:07:56 INFO  inetBankingV1:62 - Opening website
+2021-01-21 12:07:57 INFO  inetBankingV1:17 - Entered username
+2021-01-21 12:07:57 INFO  inetBankingV1:20 - entered password
+2021-01-21 12:07:58 INFO  inetBankingV1:23 - Clicked submit
+2021-01-21 12:08:02 INFO  inetBankingV1:35 - Testcase failed
