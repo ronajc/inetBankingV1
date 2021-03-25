@@ -28,6 +28,10 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 		logger.info("Clicked submit");
 
 		lP.clickSubmit();
+		if(isAlertpresent()== true)
+			{
+			logger.info("Login failed");
+			};
 
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
@@ -87,9 +91,6 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 						logger.info("Testcase 2 failed");
 					}
 				}
-
-
-
 			}
 			else {
 				logger.info("switching to failed to add customer alert");
@@ -98,12 +99,12 @@ public class TC_AddCustomerTest_002 extends BaseClass{
 				Assert.assertFalse(false);
 			}
 		}
-		else 
+		else
 		{
-			captureScreenshot(driver, "loginStep");
-			Assert.assertFalse(false);
+			Assert.assertTrue(false);
 			logger.info("Testcase failed");
-
+			captureScreenshot(driver, "loginStep");
+			
 		}
 	}
 }

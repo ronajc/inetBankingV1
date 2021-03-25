@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
@@ -13,21 +14,21 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reporting extends TestListenerAdapter
 {
-	ExtentReports extentReports; // All three in-built available classes
-	ExtentTest extentTest;
-	ExtentSparkReporter htmlreporter;
+	ExtentReports extentReports; // creates the report
+	ExtentTest extentTest; // Logger of tests for success/ failure etc
+	ExtentHtmlReporter htmlreporter; // UI creation 
 
-	public void onStart(ITestResult testResult) throws IOException
+	public void onStart(ITestContext testContext)
 	{
-		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.ss").format(new Date()); // creating timestamp for report
+		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.ss").format(new Date()); // creating time-stamp for report
 		String reportname = "Test_Report_" + timestamp + ".html"; // setting report name
 
-		htmlreporter = new ExtentSparkReporter(System.getProperty("user.dir")+ "/test-output/" + reportname); 
+		htmlreporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/" + reportname); 
 		htmlreporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 
 		extentReports = new ExtentReports();
@@ -53,13 +54,17 @@ public class Reporting extends TestListenerAdapter
 		extentTest = extentReports.createTest(testResult.getName());
 		extentTest.log(Status.FAIL, MarkupHelper.createLabel(testResult.getName(), ExtentColor.RED));
 
-		String screenshotPath = System.getProperty("user.dir"+ "\\Screenshots\\" + testResult.getName() + ".png");
+	//	String ssPath = System.getProperty("user.dir"+ "/Screenshots/" + testResult.getName() + ".png");
 
-		File f = new File(screenshotPath);
-
-		if(f.exists()) {
-			extentTest.fail("Screenshot ofr failed case :" + extentTest.addScreenCaptureFromPath(screenshotPath));
-		}
+//		File filename = new File(System.getProperty("user.dir"+ "/Screenshots/" + testResult.getName() + ".png"));
+//
+//		if(filename.exists()) {
+//			try {
+//				extentTest.fail("Screenshot of failed case :" + extentTest.addScreenCaptureFromPath(System.getProperty("user.dir"+ "/Screenshots/" + testResult.getName() + ".png")));
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
 	}
 
 	public void onTestSkip(ITestResult testResult)
@@ -68,7 +73,7 @@ public class Reporting extends TestListenerAdapter
 		extentTest.log(Status.SKIP, MarkupHelper.createLabel(testResult.getName(), ExtentColor.ORANGE));
 	}
 
-	public void onFinish(ITestResult testResult)
+	public void onFinish(ITestContext testContext)
 	{
 		extentReports.flush();
 	}

@@ -1,6 +1,5 @@
 package com.inetBanking.testCases;
 
-
 import java.io.File;
 import java.io.IOException;
 
@@ -13,12 +12,15 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.inetBanking.utilities.ReadConfig;
@@ -36,7 +38,7 @@ public class BaseClass {
 	
 	
 	@SuppressWarnings("deprecation")
-	@BeforeMethod @Parameters("browser")
+	@BeforeTest @Parameters("browser")
 	public void setup(String browser)
 	{
 		logger = Logger.getLogger("inetBankingV1");
@@ -47,6 +49,8 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver",rfConfig.getchromePath());
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("headless");
 			driver = new ChromeDriver(capabilities);
 		}
 
@@ -62,10 +66,11 @@ public class BaseClass {
 		logger.info("Opening website");		
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void teardown()
 	{
 		driver.quit();
+		
 	}
 
 	public void captureScreenshot(WebDriver driver, String name) throws IOException
